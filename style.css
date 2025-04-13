@@ -37,6 +37,7 @@ header {
     margin-top: 1rem;
     list-style: none;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 
 .nav-links li a {
@@ -47,7 +48,11 @@ header {
     border-radius: 5px;
 }
 
-.nav-links li a:hover,
+.nav-links li a:hover {
+    background-color: #1e3a8a;
+    color: #fff;
+}
+
 .nav-links li a.active {
     background-color: #1e3a8a;
     color: #fff;
@@ -334,4 +339,21 @@ h4 {
     cursor: pointer;
     box-shadow: 0 4px 12px rgba(198, 167, 109, 0.3);
 
+}
+
+footer {
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+.footer-content h6 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.footer-content p {
+    margin: 4px 0;
+    font-size: 0.95rem;
 }
