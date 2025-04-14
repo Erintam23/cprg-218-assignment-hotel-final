@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #f0f9ff;
     box-shadow: 0 2px 5px rgba (0,0,0,0.1);
@@ -43,4 +48,101 @@ header {
 .nav-links li a.active {
     background-color: #1e3a8a;
     color: #fff;
+}
+
+.hero {
+    background-image: url ('pexels-olly-3757657.jpg');
+    background-position: center;
+}
+
+.hero h1{
+    color: #7a6c5d;
+    font-size: 30px;
+    letter-spacing: 1rem;
+}
+
+.hero p{
+    color: #fff;
+}
+
+.available {
+    margin: auto;
+    padding: 20px 20px;
+    background-color: #3d767d;
+}
+
+.available h2{
+    font-size: 30px;
+    letter-spacing: 0.6rem;
+    color: #bfa86a;
+}
+
+.category {
+    margin-bottom: 40px;
+}
+  
+  .category h3 {
+    font-size: 2rem;
+    color: #9c8a7a;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dcd2c4;
+    padding-bottom: 5px;
+ }
+
+ .item {
+    margin-bottom: 20px;
+}
+  
+  .item h4 {
+    font-size: 1.2rem;
+    color: #444;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+  .item p {
+    margin: 5px 0 10px;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+.notes {
+    background-color: #f1ebe5;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.notes h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #6c584c;
+}
+
+.notes ul {
+    list-style: disc;
+    padding-left: 2rem;
+}
+  
+  .notes li {
+    margin-bottom: 1rem;
+    color: #5a4e42;
+}
+
+footer {
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to bottom right, #dbeafe, #e5e7eb, #96ace9);
+}
+
+.footer-content h6 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.footer-content p {
+    margin: 4px 0;
+    font-size: 0.95rem;
 }
