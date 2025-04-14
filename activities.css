@@ -138,3 +138,21 @@
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+footer {
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to bottom right, #dbeafe, #e5e7eb, #96ace9);
+}
+
+.footer-content h6 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.footer-content p {
+    margin: 4px 0;
+    font-size: 0.95rem;
+}
