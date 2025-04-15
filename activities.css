@@ -17,6 +17,17 @@
     padding: 1rem 2rem;
 }
 
+#weather-widget {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#weather-widget li {
+    list-style: none;
+}
+
 .main-nav {
     display: flex;
     justify-content: space-between;
@@ -125,6 +136,33 @@
 .activities ul li:hover {
     background: #eef7f9;
 } 
+
+#sand{
+    max-width: 50%;
+    margin-bottom: 2rem;
+}
+
+#water{
+    max-width: 50%;
+    margin-bottom: 2rem;
+}
+
+#coral{
+    max-width: 50%;
+    margin-bottom: 2rem;
+}
+
+#local{
+    max-width: 50%;
+    margin-bottom: 2rem;
+}
+
+#wild{
+    max-width: 50%;
+    margin-bottom: 2rem;
+}
+
+
 
 .booking ul li {
     background: #fff8f1;

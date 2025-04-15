@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="room.css">
+    <script src="weather.js" defer></script>
     <title>Our Luxurious Guest Rooms</title>
 </head>
 <body>
@@ -11,9 +12,15 @@
     <header>
         <nav class="main-nav">
             <div>
-                <img src="image/logo.png" alt="logo">
+                <img src="logo.png" alt="logo">
             </div>
             <div class="weather-widget" id="weather-widget">
+              <h1>Current Weather in Cancún</h1>
+              <img src="" alt="" id="icon">
+              <ul>
+                  <li id="temperature"></li>
+                  <li id="humidity"></li>
+              </ul>
             </div>
 
             <ul class="nav-links">
@@ -34,7 +41,7 @@
 
 <section class="room-grid">
     <div class="room-intro">
-        <img src="king.jpg" alt="Ocean View Deluxe Room">
+        <img src="photos/king.jpg" alt="Ocean View Deluxe Room">
         <div class="room-content">
             <h2>Ocean View Deluxe Room</h2>
             <ul>
@@ -50,7 +57,7 @@
         </div>
 
         <div class="room-intro">
-            <img src="hotel-room-1447201_1920.jpg" alt="Beachfront Suite">
+            <img src="photos/hotel-room-1447201_1920.jpg" alt="Beachfront Suite">
             <div class="room-content">
                 <h2>Beachfront Suite</h2>
                 <ul>
@@ -67,7 +74,7 @@
             </div>
 
             <div class="room-intro">
-                <img src="hotel-1191726_1920.jpg" alt="Garden View Family Room">
+                <img src="photos/room2.jpg" alt="Garden View Family Room">
                 <div class="room-content">
                     <h2>Garden View Family Room</h2>
                     <ul>
@@ -83,7 +90,7 @@
                 </div>
 
                 <div class="room-intro">
-                    <img src="hotel-1979406_1920.jpg" alt="Premium Oceanfront Suite">
+                    <img src="photos/hotel-1979406_1920.jpg" alt="Premium Oceanfront Suite">
                     <div class="room-content">
                         <h2>Premium Oceanfront Suite with Plunge Pool</h2>
                         <ul>
@@ -100,7 +107,7 @@
                     </div>
 
                     <div class="room-intro">
-                        <img src="single.jpg" alt="Accessible Room">
+                        <img src="photos/single.jpg" alt="Accessible Room">
                         <div class="room-content">
                             <h2>Accessible Room</h2>
                             <ul>

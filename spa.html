@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="spa.css">
+    <script src="weather.js" defer></script>
     <title>Spa</title>
 </head>
 <body>
@@ -11,9 +12,16 @@
     <header>
         <nav class="main-nav">
             <div>
-                <img src="image/logo.png" alt="logo">
+                <img src="logo.png" alt="logo">
             </div>
-            <div class="weather-widget" id="weather-widget">
+            
+            <div id="weather-widget">
+              <h1>Current Weather in Cancún</h1>
+              <img src="" alt="" id="icon">
+              <ul>
+                  <li id="temperature"></li>
+                  <li id="humidity"></li>
+              </ul>
             </div>
 
             <ul class="nav-links">
@@ -36,7 +44,7 @@
 <main>
     <section class="available">
         <h2>AVAILABLE SERVICE</h2>
-        <img src="pexels-john-tekeridis-21837-3212164.jpg" alt="spa">
+        <img src="photos/pexels-john-tekeridis-21837-3212164.jpg" alt="spa">
 
     <div class="category">
         <div class="item">

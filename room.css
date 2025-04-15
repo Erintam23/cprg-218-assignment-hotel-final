@@ -10,6 +10,17 @@ header {
     padding: 1rem 2rem;
 }
 
+#weather-widget {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#weather-widget li {
+    list-style: none;
+}
+
 .main-nav {
     display: flex;
     justify-content: space-between;
@@ -89,6 +100,7 @@ header {
 .room-intro img {
     object-fit: cover;
     object-position: center;
+    max-width: 100%;
 }
 
 .room-content {
