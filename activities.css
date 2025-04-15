@@ -13,7 +13,6 @@
 
   header {
     background-color: #f0f9ff;
-    box-shadow: 0 2px 5px rgba (0,0,0,0.1);
     padding: 1rem 2rem;
 }
 
@@ -36,7 +35,7 @@
 }
 
 .main-nav div img {
-    max-width: 120px;
+    max-width: 300px;
     height: auto;
 }
 
@@ -97,7 +96,7 @@
 
 .activity-group {
     margin-bottom: 50px;
-    background-color: #d4aa7d;;
+    background-color: #d4aa7d;
     border: 1px solid #eee;
     border-radius: 12px;
     padding: 30px;
@@ -194,3 +193,14 @@ footer {
     margin: 4px 0;
     font-size: 0.95rem;
 }
+
+@media screen and (max-width: 768px) {
+    .main-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #weather-widget {
+      font-size: 0.9rem;
+      text-align: center;
+    }}

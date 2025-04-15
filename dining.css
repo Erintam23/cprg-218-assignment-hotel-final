@@ -12,7 +12,6 @@ body {
 
 header {
     background-color: #f0f9ff;
-    box-shadow: 0 2px 5px rgba (0,0,0,0.1);
     padding: 1rem 2rem;
 }
 
@@ -35,7 +34,7 @@ header {
 }
 
 .main-nav div img {
-    max-width: 120px;
+    max-width: 300px;
     height: auto;
 }
 
@@ -84,7 +83,7 @@ header {
 .hero p{
     max-width: 800px;
     margin: 0 auto;
-    font-family: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .restaurants {
@@ -104,7 +103,7 @@ header {
     font-size: 1.5rem;
     color: #003f5c;
     padding-bottom: 0.5rem;
-    border-bottom: 2px #d4af37;
+    border-bottom: 2px solid #d4af37;
 }
 
 .restaurants ul {
@@ -165,3 +164,15 @@ footer {
     margin: 4px 0;
     font-size: 0.95rem;
 }
+
+@media screen and (max-width: 768px) {
+    .main-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #weather-widget {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }

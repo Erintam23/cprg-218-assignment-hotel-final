@@ -6,7 +6,6 @@ fetch (
 		console.log(data);
         console.log(data.main.temp);
     
-
     const weathericon =
     'https://openweathermap.org/img/wn/' +
     data.weather[0].icon +
